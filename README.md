@@ -1,11 +1,14 @@
 # TODO
-basic todo list app made with html, js, css
+a collection of todo apps created with various frameworks
 
-### SETUP
-1. Clone this repository
-2. Open index.html in your browser.
+**Find more detailed documentation and setup instructions in each branch.**
 
-### DOCUMENTATION
-* This app was created following [this tutorial](https://medium.com/clarusway/making-a-todo-list-with-html-css-and-javascript-154839b770b6).
-* Some styles were changed, but most of the basic structure remains the same.
-* New comments added to demonstrate understanding of the code are in the form "COMMENT: ..." to distinguish from the original author's comments.
+### BRANCHES
+* htmlcssjs - made with html, css, js
+* htmlcssjs-smart - made with html, css, js with additional todo suggestion feature
+* nodemongo - made with node.js and mongodb
+* flutter - made with flutter
+* obvervable - made with observablehq
+* sveltefirebase - made with svelte and firebase
+* flask - made with flask
+* meteorsvelte - made with meteor and svelte
