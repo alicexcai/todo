@@ -26,9 +26,38 @@ class Todo_Class {
         todoObjectList.unshift(todoObject);
         // COMMENT: this runs the display method to render the updated list
         this.display();
-        // COMMENT: this clears the input field
-        document.querySelector("#myInput").value = '';
-
+        
+        // NEW CODE: this forms a gpt3 prompt based on the previous todos
+        var todoPrompt = "The following is a variety of todos:\n";
+        todoObjectList.forEach((object_item) => {
+            todoPrompt += "Todo: " + object_item.todoText + "\n";
+        });
+        // NEW CODE: this forms a post request to get a suggested todo using gpt3
+        let promptData = {
+            prompt: todoPrompt + "Todo:",
+            model: "davinci",
+            max_tokens: 20,
+            temperature: 0.7,
+            stop: "\n"
+        };
+        // NEW CODE: this executes the post request to get a suggested todo using gpt3
+        fetch("https://api.openai.com/v1/completions", {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer <enter your api key>',
+            'Access-Control-Allow-Origin': '*',
+        }, 
+          body: JSON.stringify(promptData)
+        }).then(response => response.json())
+        .then(data => {
+            // NEW CODE: this gets the suggested todo from the response and trims it
+            const suggestedTodo = data.choices[0].text.trim();
+            console.log("GPT3 Suggestion: " + suggestedTodo);
+            document.querySelector("#myInput").value = '';
+            // NEW CODE: this repalces the input field placeholder with a suggested todo
+            document.querySelector("#myInput").placeholder = "Sugguestion: " + suggestedTodo;
+        });     
         }
     }
 
