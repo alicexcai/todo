@@ -6,7 +6,14 @@ basic todo list app made with node.js and mongodb
 2. Checkout to this branch (nodemongo)
 3. Set up a google project to get your google oauth client id and secret. [Here's](https://www.balbooa.com/gridbox-documentation/how-to-get-google-client-id-and-client-secret) a good tutorial to help with that.
 4. Set up a mongodb database to get your mongo uri. [Here's](https://www.mongodb.com/docs/manual/reference/connection-string/) a good resource to help with that.
-5. Fill in the environment variables in /app/config/config.env accordingly.
+5. Create /app/config/config.env and configure your environment variables according to the following schema:
+```
+PORT = 3000
+MONGO_URI = enter your mongo uri
+GOOGLE_CLIENT_ID = enter your google client id
+GOOGLE_CLIENT_SECRET = enter your google client secret
+
+```
 6. cd into /app
 7. npm install the requirements
 8. npm run dev
