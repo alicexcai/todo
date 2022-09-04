@@ -1,14 +1,14 @@
 # TODO
-a collection of todo apps created with various frameworks
+basic todo list app made with node.js and mongodb
 
-**Find more detailed documentation and setup instructions in each branch.**
+### SETUP
+1. Install flutter (if you're on a Mac, [this tutorial](https://www.geeksforgeeks.org/flutter-installation-on-macos/) is useful)
+2. Clone this repository
+3. Checkout to this branch (flutter)
+4. cd into /app
+7. flutter run
 
-### BRANCHES
-* htmlcssjs - made with html, css, js
-* htmlcssjs-smart - made with html, css, js with additional todo suggestion feature
-* nodemongo - made with node.js and mongodb
-* flutter - made with flutter
-* obvervable - made with observablehq
-* sveltefirebase - made with svelte and firebase
-* flask - made with flask
-* meteorsvelte - made with meteor and svelte
+### DOCUMENTATION
+* This app was created following [this tutorial](https://daily-dev-tips.com/posts/build-a-todo-list-app-with-flutter/).
+* Some styles were changed, but most of the basic structure remains the same.
+* New comments added to demonstrate understanding of the code are in the form "COMMENT: ..." to distinguish from the original author's comments.
