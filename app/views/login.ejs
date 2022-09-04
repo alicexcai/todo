@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- COMMENT: this defines the metadata of the app -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- COMMENT: these specify the css scripts to include -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- COMMENT: this sets the title of the app, which appears on the chrome tab -->
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- COMMENT: these divs create several different containers with various styling properties -->
+    <div class="container login-container">
+        <!-- COMMENT: this creates a card to hold the main content -->
+        <div class="card" style="margin-top:100px;">
+            <div class="card-content">
+                <!-- COMMENT: this creates a large title for the page -->
+                <h3 style="text-align: center;"><i class="fas fa-book"></i>&nbsp;To-do app</h3>
+                <div class="section">
+                    <!-- COMMENT: this creates a paragraph for description -->
+                    <p class="lead" style="text-align: center;">This is your dashboard for creating and finishing todos.</p>
+                </div>
+                <div class="divider"></div>
+                <div class="section" style="text-align: center;">
+                    <!-- COMMENT: this creates a redirectable login button -->
+                    <a href="/auth/google" class="btn red darken-1">
+                        <i class="fab fa-google left"></i> Log In With Google
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COMMENT: this specifies the javascript script to include -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
