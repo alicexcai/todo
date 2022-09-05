@@ -1,0 +1,144 @@
+/* CSS declarations go here */
+/* COMMENT: this declares styles for the main body */
+body {
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-attachment: fixed;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+}
+
+/* COMMENT: this declares styles for container elements */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+
+/* COMMENT: this declares styles for the header element */
+header {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+/* COMMENT: this declares styles for the login-buttons */
+#login-buttons {
+  display: block;
+}
+
+/* COMMENT: this declares styles for h1 */
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+/* COMMENT: this declares styles for form components */
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+/* COMMENT: this declares styles for new-task input elements */
+.new-task input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+
+/* COMMENT: this declares styles for new-task input elements on focus */
+.new-task input:focus {
+  outline: 0;
+}
+
+/* COMMENT: this declares styles for unordered lists */
+ul {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+/* COMMENT: this declares styles for delete calsses */
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+}
+
+/* COMMENT: this delcares styles for list elements */
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;
+}
+
+/* COMMENT: this declares the margin for list element text */
+li .text {
+  margin-left: 10px;
+}
+
+/* COMMENT: this declares the text color of list elements when checked */
+li.checked {
+  color: #888;
+}
+
+/* COMMENT: this declares strikethrough for list elements when checked */
+li.checked .text {
+  text-decoration: line-through;
+}
+
+/* COMMENT: this declares styles for private list elements*/
+li.private {
+  background: #eee;
+  border-color: #ddd;
+}
+
+/* COMMENT: this declares styles for the header*/
+header .hide-completed {
+  float: right;
+}
+
+/* COMMENT: this declares styles for toggle-private elements */
+.toggle-private {
+  margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+  li {
+    padding: 12px 15px;
+  }
+
+  .search {
+    width: 150px;
+    clear: both;
+  }
+
+  .new-task input {
+    padding-bottom: 5px;
+  }
+}
