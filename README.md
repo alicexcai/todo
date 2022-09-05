@@ -1,5 +1,5 @@
 # TODO
-basic todo list app made with node.js and mongodb
+basic todo list app made with flutter
 
 ### SETUP
 1. Install flutter (if you're on a Mac, [this tutorial](https://www.geeksforgeeks.org/flutter-installation-on-macos/) is useful)
