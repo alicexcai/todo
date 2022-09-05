@@ -1,14 +1,12 @@
 # TODO
-a collection of todo apps created with various frameworks
+basic todo list app made with observablehq
 
-**Find more detailed documentation and setup instructions in each branch.**
+### SETUP
+1. Create an observablehq account.
+2. Fork this notebook.
+3. Run the notebook.
 
-### BRANCHES
-* htmlcssjs - made with html, css, js
-* htmlcssjs-smart - made with html, css, js with additional todo suggestion feature
-* nodemongo - made with node.js and mongodb
-* flutter - made with flutter
-* obvervable - made with observablehq
-* sveltefirebase - made with svelte and firebase
-* flask - made with flask
-* meteorsvelte - made with meteor and svelte
+### DOCUMENTATION
+* This app was forked from [this notebook](https://observablehq.com/@alejandrokennedy/d3-redux-and-redux-undo-todo-list).
+* Some styles were changed, but most of the basic structure remains the same.
+* New comments added to demonstrate understanding of the code are in the form "COMMENT: ..." to distinguish from the original author's comments.
