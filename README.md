@@ -9,8 +9,6 @@ basic todo list app made with meteor and svelte
 4. meteor
 
 ### DOCUMENTATION
-* This app was created following [this tutorial](https://medium.com/clarusway/making-a-todo-list-with-html-css-and-javascript-154839b770b6).
+* This app was created following [this tutorial](https://hackernoon.com/how-to-build-todoist-app-by-using-svelte-and-meteor-0o1u318n).
 * Some styles were changed, but most of the basic structure remains the same.
 * New comments added to demonstrate understanding of the code are in the form "COMMENT: ..." to distinguish from the original author's comments.
-* New functionality was added to give the user suggested tasks based on their previously entered tasks.
-* New code added is labeled "NEW CODE: ..." to distinguish from the original author's code.
