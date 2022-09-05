@@ -1,0 +1,14 @@
+{
+  "name": "@acai/todo-app",
+  "main": "d7b3eaa88058de6a@100.js",
+  "version": "100.0.0",
+  "homepage": "https://observablehq.com/@acai/todo-app",
+  "author": {
+    "name": "Alice Cai",
+    "url": "https://observablehq.com/@acai"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -2,9 +2,15 @@
 basic todo list app made with observablehq
 
 ### SETUP
+To run on observablehq:
 1. Create an observablehq account.
-2. Fork this notebook.
+2. Fork [this notebook](https://observablehq.com/@acai/todo-app).
 3. Run the notebook.
+To run on local:
+1. Clone this repository
+2. Checkout to this branch (observable)
+3. cd into /app
+4. npx http-server
 
 ### DOCUMENTATION
 * This app was forked from [this notebook](https://observablehq.com/@alejandrokennedy/d3-redux-and-redux-undo-todo-list).
