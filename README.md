@@ -6,6 +6,7 @@ To run on observablehq:
 1. Create an observablehq account.
 2. Fork [this notebook](https://observablehq.com/@acai/todo-app).
 3. Run the notebook.
+
 To run on local:
 1. Clone this repository
 2. Checkout to this branch (observable)
