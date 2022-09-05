@@ -4,14 +4,14 @@ basic todo list app made with svelte and firebase
 ### SETUP
 1. Clone this repository
 2. Checkout to this branch (sveltefirebase)
-3. Set up a google project to get your google oauth client id and secret. [Here's](https://www.balbooa.com/gridbox-documentation/how-to-get-google-client-id-and-client-secret) a good tutorial to help with that.
-4. Set up a mongodb database to get your mongo uri. [Here's](https://www.mongodb.com/docs/manual/reference/connection-string/) a good resource to help with that.
-5. Create /app/config/config.env and configure your environment variables according to the following schema:
-6. cd into /app
-7. npm install the requirements
-8. npm run dev
+3. Set up a firebase project and web app. Enable firestore native api within google cloud console and google authentication in your firebase project.
+4. Replace the project setting fields in firebaseConfig in /app/src/firebase.js with your app credentials, which can be found under project settings in the firebase console.
+5. cd into /app
+6. npm install the requirements
+7. npm run dev
+8. When running the app for the first time, firebase will ask you to create a query index for a composite query- just follow the instructions given.
 
 ### DOCUMENTATION
-* This app was created following [this tutorial](https://dev.to/atultyagi612/build-a-basic-todo-app-with-nodejs-mongodb-20om).
-* Some styles were changed, but most of the basic structure remains the same.
+* This app was created following [this tutorial](https://fireship.io/lessons/svelte-v3-overview-firebase/).
+* The original code was depracated, so some changes were made to make it run, but most of the basic structure remains the same.
 * New comments added to demonstrate understanding of the code are in the form "COMMENT: ..." to distinguish from the original author's comments.

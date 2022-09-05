@@ -5,13 +5,13 @@ import 'firebase/compat/firestore';
 
 // COMMENT: create the configuration based on your firebase project settings
 const firebaseConfig = {
-  apiKey: "enter api key",
-  authDomain: "enter auth domain",
-  projectId: "enter project id",
-  storageBucket: "enter storage bucket",
-  messagingSenderId: "enter messaging sender id",
-  appId: "enter app id",
-  measurementId: "enter measurement id"
+  apiKey: "AIzaSyDlHKWwZtI8AUf7i75a-unn4mgKU9zG6ak",
+  authDomain: "todo-9cf17.firebaseapp.com",
+  projectId: "todo-9cf17",
+  storageBucket: "todo-9cf17.appspot.com",
+  messagingSenderId: "303666986888",
+  appId: "1:303666986888:web:12fa04968bfd691a34843d",
+  measurementId: "G-5BHDYBZ51L"
 };
 
 console.log(firebase)
