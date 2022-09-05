@@ -4,7 +4,9 @@ body {
   padding: 10px;
   font-family: sans-serif;
   background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background: linear-gradient(90deg, rgba(0,0,250,1) 0%,
+                                     rgb(0, 138, 244) 50%, 
+                                     rgb(4, 254, 221) 100%);
   background-attachment: fixed;
 
   position: absolute;
